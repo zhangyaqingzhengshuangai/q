@@ -1,0 +1,384 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .textContent{
+    position:absolute;
+    font-size:0.32rem;
+    left:2.5rem;
+    top:1.5rem;
+    line-height:0.64rem;
+    color:darkorange;
+}
+/* 第一页 */
+.page1>img{
+    position:absolute;
+}
+.page1{
+   background:url("../img/beijing\ \(2\).jpg");
+   position:relative;
+}
+.desk{
+    width:2rem;
+    height:4.5rem;
+    left: 0.2rem;
+    top:0.5rem;
+    background-size: cover;
+}
+
+.zhi{
+    width:2.5rem;
+    height:4rem;
+    left:0.2rem;
+    bottom: 0.5rem;
+}
+
+.shiqu{
+    width:4rem;
+    height:6rem;
+    left: 2.2rem;
+    top:3.8rem;
+}
+.qingchun{
+    width:1.5rem;
+    height:2.5rem;
+    right: 0.2rem;
+    top:1rem;
+}
+
+.peoples{
+    width:2.5rem;
+    height: 2.8rem;
+    bottom:0.2rem;
+    right: 0.2rem;
+}
+.wo{
+  width: 1.3rem;
+  height: 1.3rem;
+  left: 3.1rem;
+  bottom: 1.5rem;
+}
+
+/* 第二页 */
+.page2{
+    position:relative;
+}
+.page2>img{
+    position:absolute;
+}
+.page2{
+    background:url("../img/beijing\ \(2\).jpg") center center no-repeat;
+    background-size:cover;
+}
+.a{
+  width:2.5rem;
+  height:5.5rem;
+  left: 0.2rem;
+  top:0.5rem;
+  background-size: cover;
+}
+
+.b{
+  width:1.8rem;
+  height:3rem;
+  left:0.2rem;
+  bottom: 1rem;
+}
+
+.c{
+  width:4rem;
+  height:2.5rem;
+  left: 2rem;
+  top:6.5rem;
+}
+.d{
+  width:2rem;
+  height:5.5rem;
+  right: 0.2rem;
+  top:0.5rem;
+}
+
+.e{
+  width:1.5rem;
+  height: 3rem;
+  bottom:1.2rem;
+  right: 0.2rem;
+}
+.f{
+  width: 1.3rem;
+  height: 1.3rem;
+  left: 3.5rem;
+  top: 2rem;
+}
+.g{
+  width: 1.3rem;
+  height: 1.3rem;
+  left: 3.1rem;
+  bottom: 2rem;
+}
+.page3{
+  position:relative;
+}
+.page3>img{
+  position:absolute;
+}
+.page3{
+  background:url("../img/beijing\ \(2\).jpg") center center no-repeat;
+  background-size:cover;
+}
+.yi{
+  width:3.5rem;
+  height:2.5rem;
+  left: 0.2rem;
+  top:0.5rem;
+  background-size: cover;
+}
+
+.er{
+  width:2rem;
+  height:4rem;
+  left:0.2rem;
+  top: 3.5rem;
+}
+.san{
+  width:2rem;
+  height:3rem;
+  left:0.2rem;
+  bottom: 1.5rem;
+}
+.si{
+  width:3rem;
+  height:2rem;
+  left: 2.2rem;
+  top:3.5rem;
+}
+.wu{
+  width:3rem;
+  height:2rem;
+  left: 2.2rem;
+  top:6rem;
+}
+
+.liu{
+  width:3.5rem;
+  height:2rem;
+  right: 0.2rem;
+  top:0.5rem;
+}
+.qi{
+  width:2.5rem;
+  height:3.5rem;
+  right: 0.2rem;
+  top:2.7rem;
+}
+.ba{
+  width:2.5rem;
+  height: 3rem;
+  top: 6.4rem;
+  right: 0.2rem;
+}
+.jiu{
+  width:4.2rem;
+  height: 2.2rem;
+  bottom:1.2rem;
+  right: 0.2rem;
+}
+.page4{
+  position:relative;
+}
+.page4>img{
+  position:absolute;
+}
+.page4{
+  background:url("../img/beijing\ \(2\).jpg") center center no-repeat;
+  background-size:cover;
+}
+.h{
+  width:2.5rem;
+  height:3.8rem;
+  left: 0.2rem;
+  top:0.7rem;
+  background-size: cover;
+}
+
+.i{
+  width:2rem;
+  height:3rem;
+  left:0.2rem;
+  top: 6rem;
+}
+.j{
+  width:1.5rem;
+  height:3rem;
+  left:2.8rem;
+  top: 4.5rem;
+}
+.k{
+  width:2rem;
+  height:2.5rem;
+  left: 2.2rem;
+  top:9rem;
+}
+.l{
+  width:2rem;
+  height:3rem;
+  left: 4.3rem;
+  top:1.5rem;
+}
+
+.m{
+  width:2.7rem;
+  height:1.5rem;
+  right: 0.2rem;
+  top:4.8rem;
+}
+.n{
+  width:2rem;
+  height:2rem;
+  left: 4.3rem;
+  top:8rem;
+}
+.o{
+  width: 1.3rem;
+  height: 1.3rem;
+  left: 2.9rem;
+  bottom: 4rem;
+}
+.p{
+  width: 1.3rem;
+  height: 1.3rem;
+  left: 2.9rem;
+  bottom: 10rem;
+}
+.q{
+  width: 1.3rem;
+  height: 1.3rem;
+  left: 0.8rem;
+  bottom: 7rem;
+}
+.r{
+  width: 1.3rem;
+  height: 1.3rem;
+  left: 5.1rem;
+  bottom: 5rem;
+}
+.text{
+  position:absolute;
+  font-size:0.32rem;
+  left:0.2rem;
+  bottom: 1rem;
+  line-height:0.64rem;
+  color:darkorange;
+}
+.Content{
+  position:absolute;
+  font-size:0.8rem;
+  right: 0.5rem;
+  bottom: 1.8rem;
+  line-height:0.64rem;
+  color:darkorange;
+}
+
+.music{
+   width:0.5rem;
+   height:0.5rem;
+   background:url("../img/yinyue.jpg") center center no-repeat;
+   background-size:cover;
+   position: absolute;
+   left:0.1rem;
+   top:0.1rem;
+   z-index:999;
+   border-radius:50%;
+   animation: rotateIn 2s linear infinite;
+
+}
+@keyframes rotateIn{
+  100%{
+    transform:rotate(360deg);
+  }
+}
+/*@-webkit-keyframes rotateIn {
+    from {
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-transform: rotate3d(0, 0, 1, -200deg);
+      transform: rotate3d(0, 0, 1, -200deg);
+      opacity: 0;
+    }
+  
+    to {
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes rotateIn {
+    from {
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-transform: rotate3d(0, 0, 1, -200deg);
+      transform: rotate3d(0, 0, 1, -200deg);
+      opacity: 0;
+    }
+  
+    to {
+      -webkit-transform-origin: center;
+      transform-origin: center;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
+  .rotateIn {
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+  }
+  */
